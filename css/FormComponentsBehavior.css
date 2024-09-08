@@ -1,0 +1,396 @@
+TABLE.overTable {
+	width: 100%;
+}
+
+TABLE.FormRow {
+	padding: 0;
+	white-space: normal;
+	background-color: #fff;
+	width: 100%;
+}
+TR.FormRow {
+	padding: 0;
+	white-space: normal;
+	background-color: #fff;
+	width: 100%;
+	height: 4ex;
+}
+
+.FormSectionHeader,
+TD.TestSectionHeaderColor {
+	font-weight: bold;
+	background-color: #ccc;
+	color: #333;
+}
+TD.FormSectionHeader {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+H5.FormSectionHeader {
+	margin-bottom: 0px;
+	padding: 3px 1em;
+}
+
+.FormLabel {
+	font-weight: normal;
+	white-space: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+TD.FormLabel {
+	padding-right: 5px;
+}
+DIV.FormLabel {
+	width: 100%;
+	min-width: 100%;
+}
+LABEL.FormLabel {
+	width: 100%;
+	min-width: 100%;
+}
+
+TABLE.FormButtonGroup {
+	width: 100%;
+	margin-top: 0.5ex;
+	margin-bottom: 0.5ex;
+}
+
+TD.FormButtonGroup {
+	white-space: nowrap;
+}
+
+.NextButton,
+.FinishButton,
+.DonateButton {
+	background: #ddd;
+	color: #000;
+	border: outset 2px #fff;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.CancelButton,
+.PreviousButton {
+	background: #ddd;
+	color: #000;
+	border: outset 2px #fff;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.FormButtonHigh {
+	border: outset 2px #c63;
+}
+
+
+TD.requiredIndicator,
+TD.FormLabel,
+TD.FormInput,
+TD.FormInput_SELECT,
+TD.holdsErrorMsgTable {
+	padding-top: 2px;
+	/*border-bottom: 1px solid #ded8be; */
+}
+TD.TestBorderColor {
+	/*background-color: #ded8be; */
+}
+
+TR.FormRowFirst TD.requiredIndicator,
+TR.FormRowMiddle TD.requiredIndicator,
+TR.FormRowFirst TD.FormLabel,
+TR.FormRowMiddle TD.FormLabel,
+TR.FormRowFirst TD.FormInput,
+TR.FormRowMiddle TD.FormInput,
+TR.FormRowFirst TD.holdsErrorMsgTable,
+TR.FormRowMiddle TD.holdsErrorMsgTable {
+	border-bottom: none;
+}
+
+TR.FormRowMiddle TD.requiredIndicator span,
+TR.FormRowLast TD.requiredIndicator span,
+TR.FormRowMiddle TD.FormLabel .FormLabelText,
+TR.FormRowLast TD.FormLabel .FormLabelText {
+	visibility: hidden;
+}
+
+TD.FormInput {
+	white-space: normal;
+	text-align: left;
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+TD.FormInput TEXTAREA,
+TD.FormInput LABEL,
+TD.FormInput INPUT,
+TD.FormInput SELECT,
+TD.FormInput OPTION {
+	font-family: Arial;
+}
+
+TD.FormInput TEXTAREA,
+TD.FormInput INPUT,
+TD.FormInput SELECT {
+	font-size: 90%;
+}
+
+TR.holdsErrorMsg {
+	vertical-align: top;
+}
+
+TD.holdsErrorMsgTable,
+TD.holdsErrorMsgOverTable,
+TD.TestSecondaryColor {
+	background-color: #f5f5f5;
+}
+TD.holdsErrorMsgTable {
+	text-align: left;
+	vertical-align: top;
+}
+TD.holdsErrorMsgOverTable {
+	width: 100%;
+}
+
+TABLE.overTable {
+	width: 100%;
+}
+TD.requiredIndicator {
+	font-size: 90%;
+	width: 2%;
+	color: #f00;
+	padding-left: 5px;
+	min-width: 2%;
+	max-width: 2%;
+	white-space: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+TD.RightEdge {
+	width: 1px;
+}
+
+TD.indented { padding-left: 20px;}
+
+INPUT.FormInput {
+	font-size: 90%;
+	width: 100%;
+}
+FIELDSET.FormInput {
+	width: 100%;
+	border: 0px;
+	color: #000;
+	font-weight: bold;
+}
+FIELDSET.borderLessFieldSet {
+	border: 0px;
+	color: #000;
+	font-weight: bold;
+}
+.LABEL_LEGEND {
+	font-size: 90%;
+	position: relative;
+	left: -10px;
+}
+SELECT.FormInput {
+ 	font-size: 90%;
+	width: 16em;
+}
+TEXTAREA.FormInput {
+	font-size: 90%;
+	width: 100%;
+}
+.bottomControlBarTopLayer {
+}
+.ButtonInput {
+	text-align: left;
+	margin-left: 0px;
+	padding-left: 0px;
+ 	float: left;
+	white-space: normal;
+	width: 9%;
+}
+.CheckboxLabel {
+	width: 85%;
+	white-space: normal;
+ 	position: relative;
+	left: 5px;
+	display: block;
+	float: left;
+}
+.FormInput .CheckboxLabel {
+	font-size: 100%;
+}
+.RadioGroupLabel {
+	font-size: 90%;
+	white-space: normal;
+	margin-top: 2px;
+	display: block;
+	float: left;
+}
+.RadioGroupLabelNoWrap {
+	font-size: 90%;
+	white-space: nowrap;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+.DataformElemContainerHidden,
+.HiddenLabel,
+.FormElementHiddenRequired,
+.FormElementHiddenErrorLabel,
+.FormElementHiddenInfoLabel,
+.FormElementHiddenWarnLabel {
+	display: none
+}
+
+.HiddenErrorImage {
+	visibility: hidden;
+}
+
+DIV.FormPreviewEditButton,
+TD.FormPreviewEditButton {
+	text-align: right;
+	vertical-align: top;
+	float: right;
+}
+
+BUTTON.FormPreviewEditButton,
+INPUT.FormPreviewEditButton {
+	margin: 0px;
+	padding: 0px;
+	border: 1px outset;
+	font-family: inherit;
+	font-size: 80%;
+}
+
+IMG.spacer {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+/* The things that need to be consistent across the various
+	message images and containers, followed by each one's specific styles.
+*/
+.FormMsgIcon,
+DIV.txtMsg,
+DIV.InfoImg {
+	padding: 3px 0px 0px 2px;
+}
+IMG.WarningImg {
+	margin: 3px 0px 0px 2px;
+}
+
+.FormMsgIcon {
+	text-align: left;
+	vertical-align: top;
+	margin: 0px;
+}
+
+DIV.InfoImg {
+	z-index: 2;
+	position: absolute;
+}
+
+IMG.WarningImg {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-width: 0px;
+	z-index: 1;
+}
+
+/* The things that need to be consistent across the various
+	message containers, followed by each one's specific styles.
+*/
+
+TD.TestSecondaryColor {
+	font-size: 80%;
+	color: inherit;
+}
+.FormInfoMsg {
+	font-size: 110%;
+	color: inherit;
+	vertical-align: top;
+	overflow: auto;
+	width: 100%;
+}
+TD.FormInfoMsg {
+	margin: 0px;
+	padding: 1px 1px 1px 1px;
+}
+
+.FormSpacer {
+	clear: left;
+	display: block;
+	background-color: #fff;
+	font-size: 90%;
+}
+
+.FormCaption {
+	padding: 2px;
+}
+
+.MsgHolder {
+ 	font-size: 90%;
+}
+
+/* Widths of the cells in the form - use padding-right to set the minimum width */
+.RequiredCellWidth {
+	padding-right: 10px;
+}
+.LabelCellWidth {
+	padding-right: 200px;
+}
+.InputCellWidth {
+	padding-right: 200px;
+}
+.InfoCellWidth {
+	padding-right: 200px;
+}
+
+.PageHeaderInfo {
+	font-weight: bold;
+	color: blue;
+}
+
+.PageHeaderWarn {
+	font-weight: bold;
+	color: red;
+}
+
+.DonationPremiumInfo {
+	font-size: 90%;
+}
+
+.DonationPremiumInfo img {
+	float: left;
+	margin-right: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+.DonationPremiumInfo a {
+	white-space: nowrap;
+}
+
+/* ported from don_premium_detail_view.tpt */
+div.premium-detail-container {
+	margin-left: 1em;
+}
+
+div.premium-detail-container span.product-info-name {
+	font-weight: bold;
+}
+
+div.premium-detail-container div.product-info-long-description {
+	margin-top: .3em;
+}
+
+div.premium-detail-container div.premium-detail-button-container {
+	margin-top: 1em;
+}
